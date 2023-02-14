@@ -1,0 +1,59 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@mixin right-pinkbox {
+  position: absolute;
+  width: 35%;
+  height: 85%;
+  background-color: rgba($color-secondary, 0.1);
+  right: 0;
+  z-index: -1;
+}
+@mixin left-skybluebox {
+  position: absolute;
+  width: 80%;
+  height: 45%;
+  background-color: rgba($color-skyblue, 0.1);
+  bottom: 0;
+  z-index: -1;
+}
+@mixin top-left-pinkbox {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  background-color: rgba($color-secondary, 0.1);
+  top: 0;
+  z-index: -1;
+}
+@mixin bottom-left-skybluebox {
+  position: absolute;
+  height: 40%;
+  width: 70%;
+  background-color: rgba($color-skyblue, 0.1);
+  bottom: 0;
+  left: 70px;
+  z-index: -1;
+}
+@mixin left-whitebox {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  background-color: rgba($color-white, 0.6);
+  bottom: 0;
+  left: 100px;
+  z-index: -1;
+}
+@mixin bottom-skybluebox {
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  background-color: rgba($color-skyblue, 0.3);
+  bottom: 0;
+  left: 170px;
+  margin-bottom: 1rem;
+  z-index: -2;
+}

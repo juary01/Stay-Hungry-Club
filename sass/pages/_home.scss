@@ -1,0 +1,154 @@
+.section__content {
+  padding: 5rem;
+}
+.section-title {
+  background-image: linear-gradient(
+    to bottom,
+    $color-secondary,
+    $color-lightgray1
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-filter: drop-shadow(2px 2px $color-shadow);
+}
+.dianne-bowdary {
+  color: $color-secondary;
+}
+.dianne__bowdary__picture__container {
+  position: relative;
+
+  .dianne__bowdary__photo {
+    width: 480px;
+    height: 530px;
+    margin: 2rem 0 3rem 2rem;
+    border-bottom-left-radius: 3.2rem;
+    box-shadow: 1px 1px 10px 2px #888888;
+  }
+  .right__pinkbox {
+    @include right-pinkbox;
+  }
+  .left__skybluebox {
+    @include left-skybluebox;
+  }
+}
+.stay-hungry-club-offers {
+  margin-top: 3rem;
+}
+.section__membership {
+  background-color: rgba($color-secondary, 0.2);
+  padding: 3rem 4rem;
+}
+
+.offer-list {
+  margin-top: 2rem;
+  margin-left: 1.2rem;
+}
+.section__subscription__box {
+  padding: 5rem;
+}
+
+.black__girl__openbox__container {
+  position: relative;
+  margin-top: 3rem;
+  .black__lady__open__box {
+    width: 500px;
+    height: 500px;
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+    margin-bottom: 3.5rem;
+    border-bottom-left-radius: 3.2rem;
+    box-shadow: 1px 1px 10px 2px #888888;
+  }
+  .top-left-pinkbox {
+    @include top-left-pinkbox;
+  }
+  .bottom-left-skybluebox {
+    @include bottom-left-skybluebox;
+  }
+}
+.col-2-of-2-bg--color {
+  background-color: $color-secondary;
+  height: 330px;
+}
+.items {
+  padding: 2rem;
+  position: relative;
+  margin: 2rem 0 2rem 2rem;
+  width: 460px;
+  height: 485px;
+  box-shadow: 1px 1px 10px 2px #888888;
+  border-bottom-left-radius: 3.2rem;
+  img {
+    margin: 0 auto;
+  }
+  .quotation {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+}
+.testimonials-slider {
+  padding: 2rem 0;
+}
+.slick-prev {
+  padding: 0.5rem;
+  background-color: $color-secondary;
+  border: none;
+  color: $color-white;
+  cursor: pointer;
+  &::before {
+    content: "<<";
+  }
+}
+.slick-next {
+  padding: 0.5rem;
+  background-color: $color-secondary;
+  border: none;
+  color: $color-white;
+  cursor: pointer;
+  &::after {
+    content: ">>";
+  }
+}
+.contacts__container {
+  padding: 5rem 2rem;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba($color-secondary, 0.2);
+  .col-1-of-2 {
+    position: relative;
+    .left-whitebox {
+      @include left-whitebox;
+    }
+    .bottom-skybluebox {
+      @include bottom-skybluebox;
+    }
+    .glad-smiling-black-woman {
+      width: 450px;
+      height: 400px;
+      margin: 2rem;
+    }
+  }
+}
+.footer__container {
+  position: relative;
+  background-color: $color-secondary;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem 0;
+}
+.social-media {
+  img {
+    margin-right: 0.8rem;
+    :not(:last-child) {
+      margin-right: 0;
+    }
+  }
+}
+.copy__right__and__policy {
+  background-color: $color-copyright-and-policy;
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,38 @@
+.btn__book__discovery {
+  padding: 1rem 1.5em;
+  background: none;
+  border: 2px solid $color-primary;
+  color: $color-primary;
+  cursor: pointer;
+}
+.btn__section {
+  margin: 0;
+  padding: 1rem 2rem;
+  background: none;
+  background-color: $color-secondary;
+  border: none;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.sign__up-btn {
+  margin-top: 3rem;
+  border: none;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  &.sign-up-btn--color {
+    background-color: $color-secondary;
+    color: $color-white;
+  }
+}
+.schedule-btn {
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  &.btn--color {
+    background-color: $color-secondary;
+    color: $color-white;
+  }
+}

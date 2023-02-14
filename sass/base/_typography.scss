@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Font-2/Poppins-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Yellowtail";
+  src: url(/fonts/Yellowtail-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Ralsted Italic";
+  src: url(/fonts/RalstedaItalic-Heavy.otf) format("opentype");
+}
+body {
+  font-family: "Poppins";
+}
+.nav__list,
+a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+}
+.section__title {
+  color: $color-primary;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.1rem;
+  line-height: 90px;
+}
+.btn__section {
+  color: $color-primary;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.section-title {
+  font-family: "Ralsted Italic";
+  font-size: 3.3rem;
+  font-style: italic;
+  font-weight: 900;
+}
+.dianne-bowdary {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.testimony__col-1-of-2 {
+  font-size: 1rem;
+  line-height: 28px;
+  font-weight: 300;
+}
+.stay-hungry-club-offers {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 65.41px;
+  color: $color-secondary;
+}
+.trademark {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.hungry-club-membership {
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.sign__up-btn {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.treasure-the-stay-hungry-club {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 65.41px;
+  color: $color-secondary;
+}
+.subscription-box {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 28px;
+}
+.section3-title {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 65.41px;
+  color: $color-white;
+}
+.section3-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 36px;
+  color: $color-white;
+}
+.testimonials {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 65.41px;
+  color: $color-secondary;
+}
+.sub-head-testimonials {
+  font-family: "Poppins";
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 36px;
+}
+.testimonials-name {
+  color: $color-secondary;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.slick-prev {
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+.slick-next {
+  font-family: "Poppins";
+  font-size: 1rem;
+}
+.contacts-title {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 65.41px;
+  color: $color-secondary;
+}
+.contact-num {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 32px;
+}
+.schedule-btn {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.info {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 28px;
+  color: $color-white;
+}
+.link1,
+.link2 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 19.5px;
+  color: $color-white;
+  text-transform: uppercase;
+}
+.copy__right__and__policy {
+  color: $color-white;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 28px;
+}
